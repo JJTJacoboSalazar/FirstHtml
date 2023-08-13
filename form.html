@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos!</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+          <img src="logo.png" alt="Jacob's blog logo">
+          <h2 class="logo">Jacob's blog</h2>
+        </a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Amsterdam</a></li>
+            <li><a href="accommodation.html">Hospedajes</a></li>
+            <li><a href="visits_activities.html">Visitas y actividades</a></li>
+            <li><a href="entertainment.html">Entretenimiento</a></li>
+            <li><a href="form.html">Contactanos!</a></li>
+        </ul>
+    </nav>
+    </header>
+    <br><br>
+    <form action="mailto:tadeo.jacobo6@gmail.com" method="POST">
+        <label for="nombre">Nombre</label><br> 
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" value="">
+        <br>
+        <label for="apellido">Apellido</label><br>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" value="">
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Correo electronico" value="">
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <br>
+        <textarea cols="40" rows="3" name="mensaje" id="mensaje" placeholder="Inserte su mensaje/recomendacion aca"></textarea>
+        <br>
+        <p class="botoncenter">
+        <input type="submit" class="btn btn-green" value="Enviar!"></input>
+        </p>
+    </form>
+    
+</body>
+</html>
